@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000535] (group_chat) JobQueued: {'identifier': 'group_chat', 'dependencies': OrderedDict()}
+[0.000583] (group_chat) JobStarted: {'identifier': 'group_chat'}
+[0.006128] (group_chat) JobProgress: {'identifier': 'group_chat', 'progress': 'cmake'}
+[0.006417] (group_chat) JobProgress: {'identifier': 'group_chat', 'progress': 'build'}
+[0.006930] (group_chat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahek/chat/build/group_chat', '--', '-j12', '-l12'], 'cwd': '/home/mahek/chat/build/group_chat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('OLDPWD', '/home/mahek/chat/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/chat/install:/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/mahek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1625,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1625'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77105fda_261b_4b99_a0ec_f6b891d16a80'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.POFS22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/chat/install/group_chat:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/chat/build/group_chat'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/chat/install/group_chat:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.060865] (group_chat) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target chat_node\x1b[0m\n'}
+[0.079385] (group_chat) StdoutLine: {'line': b'[ 33%] Built target chat_node_1\n'}
+[0.082926] (group_chat) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/chat_node.dir/src/chat_node.cpp.o\x1b[0m\n'}
+[0.083102] (group_chat) StdoutLine: {'line': b'[ 83%] Built target chat_node_2\n'}
+[0.099682] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.300369] (-) TimerEvent: {}
+[0.400718] (-) TimerEvent: {}
+[0.501076] (-) TimerEvent: {}
+[0.601329] (-) TimerEvent: {}
+[0.701693] (-) TimerEvent: {}
+[0.802057] (-) TimerEvent: {}
+[0.902352] (-) TimerEvent: {}
+[1.002707] (-) TimerEvent: {}
+[1.103069] (-) TimerEvent: {}
+[1.203378] (-) TimerEvent: {}
+[1.303743] (-) TimerEvent: {}
+[1.404097] (-) TimerEvent: {}
+[1.504365] (-) TimerEvent: {}
+[1.604715] (-) TimerEvent: {}
+[1.705076] (-) TimerEvent: {}
+[1.805367] (-) TimerEvent: {}
+[1.905726] (-) TimerEvent: {}
+[2.006088] (-) TimerEvent: {}
+[2.106389] (-) TimerEvent: {}
+[2.206745] (-) TimerEvent: {}
+[2.307105] (-) TimerEvent: {}
+[2.407404] (-) TimerEvent: {}
+[2.507765] (-) TimerEvent: {}
+[2.608129] (-) TimerEvent: {}
+[2.708443] (-) TimerEvent: {}
+[2.808811] (-) TimerEvent: {}
+[2.909174] (-) TimerEvent: {}
+[3.009490] (-) TimerEvent: {}
+[3.109845] (-) TimerEvent: {}
+[3.210201] (-) TimerEvent: {}
+[3.310562] (-) TimerEvent: {}
+[3.410925] (-) TimerEvent: {}
+[3.511192] (-) TimerEvent: {}
+[3.611501] (-) TimerEvent: {}
+[3.711846] (-) TimerEvent: {}
+[3.812174] (-) TimerEvent: {}
+[3.912484] (-) TimerEvent: {}
+[4.012815] (-) TimerEvent: {}
+[4.113160] (-) TimerEvent: {}
+[4.213458] (-) TimerEvent: {}
+[4.313808] (-) TimerEvent: {}
+[4.414169] (-) TimerEvent: {}
+[4.514495] (-) TimerEvent: {}
+[4.614836] (-) TimerEvent: {}
+[4.715187] (-) TimerEvent: {}
+[4.815499] (-) TimerEvent: {}
+[4.915852] (-) TimerEvent: {}
+[5.016184] (-) TimerEvent: {}
+[5.116474] (-) TimerEvent: {}
+[5.216735] (-) TimerEvent: {}
+[5.317039] (-) TimerEvent: {}
+[5.417337] (-) TimerEvent: {}
+[5.503009] (group_chat) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable chat_node\x1b[0m\n'}
+[5.517456] (-) TimerEvent: {}
+[5.617893] (-) TimerEvent: {}
+[5.718289] (-) TimerEvent: {}
+[5.762968] (group_chat) StdoutLine: {'line': b'[100%] Built target chat_node\n'}
+[5.774243] (group_chat) CommandEnded: {'returncode': 0}
+[5.775189] (group_chat) JobProgress: {'identifier': 'group_chat', 'progress': 'install'}
+[5.781837] (group_chat) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahek/chat/build/group_chat'], 'cwd': '/home/mahek/chat/build/group_chat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('OLDPWD', '/home/mahek/chat/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/chat/install:/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/mahek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1625,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1625'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/77105fda_261b_4b99_a0ec_f6b891d16a80'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.POFS22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/chat/install/group_chat:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/chat/build/group_chat'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/chat/install/group_chat:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[5.788767] (group_chat) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.788979] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/lib/group_chat/chat_node_1\n'}
+[5.789113] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/lib/group_chat/chat_node_2\n'}
+[5.789209] (group_chat) StdoutLine: {'line': b'-- Installing: /home/mahek/chat/install/group_chat/lib/group_chat/chat_node\n'}
+[5.791574] (group_chat) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/chat/install/group_chat/lib/group_chat/chat_node" to ""\n'}
+[5.791749] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/launch\n'}
+[5.791877] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/launch/chat_group.launch.py\n'}
+[5.791967] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/ament_index/resource_index/package_run_dependencies/group_chat\n'}
+[5.792064] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/ament_index/resource_index/parent_prefix_path/group_chat\n'}
+[5.792155] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/ament_prefix_path.sh\n'}
+[5.792241] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/ament_prefix_path.dsv\n'}
+[5.792324] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/path.sh\n'}
+[5.792408] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/path.dsv\n'}
+[5.792491] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.bash\n'}
+[5.792576] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.sh\n'}
+[5.792667] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.zsh\n'}
+[5.792757] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.dsv\n'}
+[5.792845] (group_chat) StdoutLine: {'line': b'-- Installing: /home/mahek/chat/install/group_chat/share/group_chat/package.dsv\n'}
+[5.792934] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/ament_index/resource_index/packages/group_chat\n'}
+[5.793028] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/cmake/group_chatConfig.cmake\n'}
+[5.794187] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/cmake/group_chatConfig-version.cmake\n'}
+[5.794364] (group_chat) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/package.xml\n'}
+[5.794527] (group_chat) CommandEnded: {'returncode': 0}
+[5.804018] (group_chat) JobEnded: {'identifier': 'group_chat', 'rc': 0}
+[5.804826] (-) EventReactorShutdown: {}

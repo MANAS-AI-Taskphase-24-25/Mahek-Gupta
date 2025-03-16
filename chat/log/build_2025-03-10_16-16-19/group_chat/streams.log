@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/mahek/chat/build/group_chat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/chat/build/group_chat -- -j12 -l12
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target chat_node_1[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target chat_node_2[0m
+[0.076s] [ 50%] Built target chat_node_1
+[0.083s] [100%] Built target chat_node_2
+[0.097s] Invoked command in '/home/mahek/chat/build/group_chat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/chat/build/group_chat -- -j12 -l12
+[0.108s] Invoking command in '/home/mahek/chat/build/group_chat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/chat/build/group_chat
+[0.117s] -- Install configuration: ""
+[0.117s] -- Up-to-date: /home/mahek/chat/install/group_chat/lib/group_chat/chat_node_1
+[0.117s] -- Up-to-date: /home/mahek/chat/install/group_chat/lib/group_chat/chat_node_2
+[0.117s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/launch
+[0.117s] -- Installing: /home/mahek/chat/install/group_chat/share/group_chat/launch/chat_group.launch.py
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/ament_index/resource_index/package_run_dependencies/group_chat
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/ament_index/resource_index/parent_prefix_path/group_chat
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/ament_prefix_path.sh
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/ament_prefix_path.dsv
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/path.sh
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/environment/path.dsv
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.bash
+[0.118s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.sh
+[0.119s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.zsh
+[0.119s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/local_setup.dsv
+[0.119s] -- Installing: /home/mahek/chat/install/group_chat/share/group_chat/package.dsv
+[0.119s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/ament_index/resource_index/packages/group_chat
+[0.119s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/cmake/group_chatConfig.cmake
+[0.119s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/cmake/group_chatConfig-version.cmake
+[0.119s] -- Up-to-date: /home/mahek/chat/install/group_chat/share/group_chat/package.xml
+[0.120s] Invoked command in '/home/mahek/chat/build/group_chat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/chat/build/group_chat

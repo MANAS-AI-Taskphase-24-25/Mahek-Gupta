@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f09c98a5b7ddacaf89ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "group_chat",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chat_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat_node-df3897454e54f1964e27.json",
+					"name" : "chat_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chat_node_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat_node_1-073a25deeabdd52b511f.json",
+					"name" : "chat_node_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chat_node_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat_node_2-054b3636edbc24c33b7c.json",
+					"name" : "chat_node_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "group_chat_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-group_chat_uninstall-7a27bdc1a424e5c89922.json",
+					"name" : "group_chat_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3440870b8fe562d059e1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mahek/chat/build/group_chat",
+		"source" : "/home/mahek/chat/src/group_chat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
