@@ -1,0 +1,2 @@
+Invoking command in '/home/mahek/chat/build/group_chat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/mahek/chat/src/group_chat -DCMAKE_INSTALL_PREFIX=/home/mahek/chat/install/group_chat
+Invoked command in '/home/mahek/chat/build/group_chat' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/mahek/chat/src/group_chat -DCMAKE_INSTALL_PREFIX=/home/mahek/chat/install/group_chat
