@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000581] (path) JobQueued: {'identifier': 'path', 'dependencies': OrderedDict()}
+[0.000653] (path) JobStarted: {'identifier': 'path'}
+[0.008631] (path) JobProgress: {'identifier': 'path', 'progress': 'cmake'}
+[0.009846] (path) JobProgress: {'identifier': 'path', 'progress': 'build'}
+[0.009947] (path) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahek/path/build/path', '--', '-j12', '-l12'], 'cwd': '/home/mahek/path/build/path', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('OLDPWD', '/home/mahek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/path/install:/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/mahek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1623,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1623'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a664e655_700b_42f8_87b4_dbb54c7269ad'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LFQA42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/path/install/path:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/path/build/path'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/path/install/path:/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.098369] (path) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target a_star_planner\x1b[0m\n'}
+[0.099904] (-) TimerEvent: {}
+[0.119231] (path) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o\x1b[0m\n'}
+[0.200155] (-) TimerEvent: {}
+[0.300567] (-) TimerEvent: {}
+[0.400987] (-) TimerEvent: {}
+[0.501402] (-) TimerEvent: {}
+[0.601719] (-) TimerEvent: {}
+[0.702137] (-) TimerEvent: {}
+[0.802483] (-) TimerEvent: {}
+[0.902873] (-) TimerEvent: {}
+[1.003213] (-) TimerEvent: {}
+[1.103516] (-) TimerEvent: {}
+[1.203843] (-) TimerEvent: {}
+[1.304180] (-) TimerEvent: {}
+[1.404493] (-) TimerEvent: {}
+[1.504898] (-) TimerEvent: {}
+[1.605249] (-) TimerEvent: {}
+[1.676985] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:132:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat Astarplanner::heuristic(int, int, int, int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kfloat Astarplanner::heuristic(int, int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.677231] (path) StderrLine: {'line': b'  132 |  float \x1b[01;31m\x1b[Kheuristic\x1b[m\x1b[K(int x1, int y1, int x2, int y2) {\n'}
+[1.677332] (path) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.677416] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:101:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kfloat Astarplanner::heuristic(int, int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.677500] (path) StderrLine: {'line': b'  101 | float \x1b[01;36m\x1b[Kheuristic\x1b[m\x1b[K(int x1, int y1, int x2,int y2){\n'}
+[1.677580] (path) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.697685] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Astarplanner::startcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.697914] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:83:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.698031] (path) StderrLine: {'line': b'   83 |     if (start_x_ < 0 || \x1b[01;35m\x1b[Kstart_x_ >= map_->info.width\x1b[m\x1b[K ||\n'}
+[1.698133] (path) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.698266] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:84:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.698371] (path) StderrLine: {'line': b'   84 |         start_y_ < 0 || \x1b[01;35m\x1b[Kstart_y_ >= map_->info.height\x1b[m\x1b[K) {\n'}
+[1.698465] (path) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.699248] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Astarplanner::goalcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.699463] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:116:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.699583] (path) StderrLine: {'line': b'  116 |     if (goal_x_ < 0 || \x1b[01;35m\x1b[Kgoal_x_ >= map_->info.width\x1b[m\x1b[K ||\n'}
+[1.699681] (path) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.699776] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:117:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.699873] (path) StderrLine: {'line': b'  117 |         goal_y_ < 0 || \x1b[01;35m\x1b[Kgoal_y_ >= map_->info.height\x1b[m\x1b[K) {\n'}
+[1.699963] (path) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.705471] (-) TimerEvent: {}
+[1.805769] (-) TimerEvent: {}
+[1.906203] (-) TimerEvent: {}
+[2.006538] (-) TimerEvent: {}
+[2.107003] (-) TimerEvent: {}
+[2.207433] (-) TimerEvent: {}
+[2.307861] (-) TimerEvent: {}
+[2.408272] (-) TimerEvent: {}
+[2.508713] (-) TimerEvent: {}
+[2.609128] (-) TimerEvent: {}
+[2.709590] (-) TimerEvent: {}
+[2.810038] (-) TimerEvent: {}
+[2.910507] (-) TimerEvent: {}
+[3.010926] (-) TimerEvent: {}
+[3.111353] (-) TimerEvent: {}
+[3.211767] (-) TimerEvent: {}
+[3.312204] (-) TimerEvent: {}
+[3.412663] (-) TimerEvent: {}
+[3.512950] (-) TimerEvent: {}
+[3.613285] (-) TimerEvent: {}
+[3.713527] (-) TimerEvent: {}
+[3.813804] (-) TimerEvent: {}
+[3.914155] (-) TimerEvent: {}
+[3.934217] (path) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/a_star_planner.dir/build.make:76: CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o] Error 1\n'}
+[3.934461] (path) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/a_star_planner.dir/all] Error 2\n'}
+[3.934633] (path) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.937307] (path) CommandEnded: {'returncode': 2}
+[3.948568] (path) JobEnded: {'identifier': 'path', 'rc': 2}
+[3.959150] (-) EventReactorShutdown: {}

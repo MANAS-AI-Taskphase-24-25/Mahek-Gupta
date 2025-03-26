@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (path) JobQueued: {'identifier': 'path', 'dependencies': OrderedDict()}
+[0.000594] (path) JobStarted: {'identifier': 'path'}
+[0.006523] (path) JobProgress: {'identifier': 'path', 'progress': 'cmake'}
+[0.006811] (path) JobProgress: {'identifier': 'path', 'progress': 'build'}
+[0.007245] (path) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahek/path/build/path', '--', '-j12', '-l12'], 'cwd': '/home/mahek/path/build/path', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('OLDPWD', '/home/mahek/path/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2190'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/mahek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1600,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1600'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e8e67cc_0eff_449a_aa74_bf3998c6bf48'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.15K432'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/path/build/path'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.049454] (path) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target a_star_planner\x1b[0m\n'}
+[0.065016] (path) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o\x1b[0m\n'}
+[0.099853] (-) TimerEvent: {}
+[0.200188] (-) TimerEvent: {}
+[0.300530] (-) TimerEvent: {}
+[0.400881] (-) TimerEvent: {}
+[0.501134] (-) TimerEvent: {}
+[0.601405] (-) TimerEvent: {}
+[0.701773] (-) TimerEvent: {}
+[0.802072] (-) TimerEvent: {}
+[0.902322] (-) TimerEvent: {}
+[1.002683] (-) TimerEvent: {}
+[1.103024] (-) TimerEvent: {}
+[1.203371] (-) TimerEvent: {}
+[1.303702] (-) TimerEvent: {}
+[1.404043] (-) TimerEvent: {}
+[1.504289] (-) TimerEvent: {}
+[1.601597] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Astarplanner::mapcallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.601885] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:67:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<signed char, std::allocator<signed char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.602009] (path) StderrLine: {'line': b'   67 |         for (int i = 0; i < 100 && \x1b[01;35m\x1b[Ki < map_->data.size()\x1b[m\x1b[K; ++i) {\n'}
+[1.602085] (path) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.604408] (-) TimerEvent: {}
+[1.608533] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Astarplanner::startcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.608674] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:96:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.608742] (path) StderrLine: {'line': b'   96 |         if (start_x_ < 0 || \x1b[01;35m\x1b[Kstart_x_ >= map_->info.width\x1b[m\x1b[K ||\n'}
+[1.608791] (path) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.608846] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:97:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.608914] (path) StderrLine: {'line': b'   97 |             start_y_ < 0 || \x1b[01;35m\x1b[Kstart_y_ >= map_->info.height\x1b[m\x1b[K) {\n'}
+[1.608972] (path) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.611225] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Astarplanner::goalcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.611324] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:131:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.611375] (path) StderrLine: {'line': b'  131 |         if (goal_x_ < 0 || \x1b[01;35m\x1b[Kgoal_x_ >= map_->info.width\x1b[m\x1b[K ||\n'}
+[1.611413] (path) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.611448] (path) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahek/path/src/path/src/a_star_planner.cpp:132:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.611492] (path) StderrLine: {'line': b'  132 |             goal_y_ < 0 || \x1b[01;35m\x1b[Kgoal_y_ >= map_->info.height\x1b[m\x1b[K) {\n'}
+[1.611526] (path) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.704533] (-) TimerEvent: {}
+[1.804874] (-) TimerEvent: {}
+[1.905133] (-) TimerEvent: {}
+[2.005420] (-) TimerEvent: {}
+[2.105770] (-) TimerEvent: {}
+[2.206072] (-) TimerEvent: {}
+[2.306309] (-) TimerEvent: {}
+[2.406651] (-) TimerEvent: {}
+[2.507011] (-) TimerEvent: {}
+[2.607258] (-) TimerEvent: {}
+[2.707542] (-) TimerEvent: {}
+[2.807884] (-) TimerEvent: {}
+[2.908147] (-) TimerEvent: {}
+[3.008425] (-) TimerEvent: {}
+[3.108784] (-) TimerEvent: {}
+[3.209048] (-) TimerEvent: {}
+[3.309295] (-) TimerEvent: {}
+[3.409633] (-) TimerEvent: {}
+[3.509985] (-) TimerEvent: {}
+[3.610242] (-) TimerEvent: {}
+[3.710519] (-) TimerEvent: {}
+[3.810863] (-) TimerEvent: {}
+[3.911131] (-) TimerEvent: {}
+[4.011420] (-) TimerEvent: {}
+[4.111769] (-) TimerEvent: {}
+[4.212049] (-) TimerEvent: {}
+[4.312280] (-) TimerEvent: {}
+[4.412537] (-) TimerEvent: {}
+[4.512877] (-) TimerEvent: {}
+[4.613115] (-) TimerEvent: {}
+[4.713375] (-) TimerEvent: {}
+[4.813714] (-) TimerEvent: {}
+[4.914086] (-) TimerEvent: {}
+[5.014322] (-) TimerEvent: {}
+[5.114652] (-) TimerEvent: {}
+[5.215000] (-) TimerEvent: {}
+[5.315230] (-) TimerEvent: {}
+[5.415528] (-) TimerEvent: {}
+[5.515940] (-) TimerEvent: {}
+[5.616177] (-) TimerEvent: {}
+[5.716454] (-) TimerEvent: {}
+[5.816795] (-) TimerEvent: {}
+[5.917051] (-) TimerEvent: {}
+[6.017294] (-) TimerEvent: {}
+[6.117632] (-) TimerEvent: {}
+[6.217988] (-) TimerEvent: {}
+[6.318226] (-) TimerEvent: {}
+[6.418503] (-) TimerEvent: {}
+[6.518831] (-) TimerEvent: {}
+[6.619055] (-) TimerEvent: {}
+[6.719291] (-) TimerEvent: {}
+[6.819632] (-) TimerEvent: {}
+[6.919861] (-) TimerEvent: {}
+[7.020097] (-) TimerEvent: {}
+[7.120327] (-) TimerEvent: {}
+[7.220672] (-) TimerEvent: {}
+[7.321017] (-) TimerEvent: {}
+[7.421378] (-) TimerEvent: {}
+[7.521739] (-) TimerEvent: {}
+[7.622086] (-) TimerEvent: {}
+[7.666080] (path) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable a_star_planner\x1b[0m\n'}
+[7.722194] (-) TimerEvent: {}
+[7.822487] (-) TimerEvent: {}
+[7.922797] (-) TimerEvent: {}
+[8.023081] (-) TimerEvent: {}
+[8.060199] (path) StdoutLine: {'line': b'[100%] Built target a_star_planner\n'}
+[8.073045] (path) CommandEnded: {'returncode': 0}
+[8.073628] (path) JobProgress: {'identifier': 'path', 'progress': 'install'}
+[8.084586] (path) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahek/path/build/path'], 'cwd': '/home/mahek/path/build/path', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mahek'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahek'), ('OLDPWD', '/home/mahek/path/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2190'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahek/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/mahek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mahek-Inspiron-14-5430:@/tmp/.ICE-unix/1600,unix/mahek-Inspiron-14-5430:/tmp/.ICE-unix/1600'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e8e67cc_0eff_449a_aa74_bf3998c6bf48'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.15K432'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_robot_controller:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahek/path/build/path'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahek/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mahek/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahek/ros2_ws/install/my_cashier_system:/home/mahek/ros2_ws/install/tutorial_interfaces:/home/mahek/ros2_ws/install/my_package:/home/mahek/ros2_ws/install/cpp_pubsub:/home/mahek/ros2_ws/install/cpp:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[8.093661] (path) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.093976] (path) StdoutLine: {'line': b'-- Installing: /home/mahek/path/install/path/lib/path/a_star_planner\n'}
+[8.097711] (path) StdoutLine: {'line': b'-- Set runtime path of "/home/mahek/path/install/path/lib/path/a_star_planner" to ""\n'}
+[8.097866] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/maps\n'}
+[8.098007] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.pgm\n'}
+[8.098228] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_basic.png\n'}
+[8.098333] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_param.yaml\n'}
+[8.098426] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.png\n'}
+[8.098519] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map.yaml\n'}
+[8.098605] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_maze.png\n'}
+[8.098691] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/launch\n'}
+[8.098780] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/launch/map_launch.py\n'}
+[8.098871] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/package_run_dependencies/path\n'}
+[8.099286] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/parent_prefix_path/path\n'}
+[8.099484] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.sh\n'}
+[8.100075] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.dsv\n'}
+[8.100249] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/environment/path.sh\n'}
+[8.100405] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/environment/path.dsv\n'}
+[8.100690] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.bash\n'}
+[8.100845] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.sh\n'}
+[8.101234] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.zsh\n'}
+[8.101381] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.dsv\n'}
+[8.101528] (path) StdoutLine: {'line': b'-- Installing: /home/mahek/path/install/path/share/path/package.dsv\n'}
+[8.101699] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/packages/path\n'}
+[8.101999] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig.cmake\n'}
+[8.102135] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig-version.cmake\n'}
+[8.102313] (path) StdoutLine: {'line': b'-- Up-to-date: /home/mahek/path/install/path/share/path/package.xml\n'}
+[8.102445] (path) CommandEnded: {'returncode': 0}
+[8.115626] (path) JobEnded: {'identifier': 'path', 'rc': 0}
+[8.116338] (-) EventReactorShutdown: {}

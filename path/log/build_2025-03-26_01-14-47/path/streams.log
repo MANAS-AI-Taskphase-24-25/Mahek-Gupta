@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/mahek/path/build/path': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/path/build/path -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target a_star_planner[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[7.787s] [100%] [32m[1mLinking CXX executable a_star_planner[0m
+[8.201s] [100%] Built target a_star_planner
+[8.213s] Invoked command in '/home/mahek/path/build/path' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/path/build/path -- -j12 -l12
+[8.221s] Invoking command in '/home/mahek/path/build/path': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/path/build/path
+[8.227s] -- Install configuration: ""
+[8.228s] -- Installing: /home/mahek/path/install/path/lib/path/a_star_planner
+[8.232s] -- Set runtime path of "/home/mahek/path/install/path/lib/path/a_star_planner" to ""
+[8.233s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps
+[8.233s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.pgm
+[8.233s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_basic.png
+[8.233s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_param.yaml
+[8.233s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.png
+[8.233s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map.yaml
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_maze.png
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/path/launch
+[8.234s] -- Installing: /home/mahek/path/install/path/share/path/launch/map_launch.py
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/package_run_dependencies/path
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/parent_prefix_path/path
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.sh
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.dsv
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/path.sh
+[8.234s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/path.dsv
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.bash
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.sh
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.zsh
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.dsv
+[8.235s] -- Installing: /home/mahek/path/install/path/share/path/package.dsv
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/packages/path
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig.cmake
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig-version.cmake
+[8.235s] -- Up-to-date: /home/mahek/path/install/path/share/path/package.xml
+[8.237s] Invoked command in '/home/mahek/path/build/path' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/path/build/path

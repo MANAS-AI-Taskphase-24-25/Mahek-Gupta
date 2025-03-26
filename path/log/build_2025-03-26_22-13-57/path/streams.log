@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/mahek/path/build/path': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/path/build/path -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target a_star_planner[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[0.210s] [01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker.hpp: No such file or directory
+[0.210s]     9 | #include [01;31m[K<visualization_msgs/msg/marker.hpp>[m[K
+[0.210s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.210s] compilation terminated.
+[0.220s] gmake[2]: *** [CMakeFiles/a_star_planner.dir/build.make:76: CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o] Error 1
+[0.220s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/a_star_planner.dir/all] Error 2
+[0.221s] gmake: *** [Makefile:146: all] Error 2
+[0.223s] Invoked command in '/home/mahek/path/build/path' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/path/build/path -- -j12 -l12

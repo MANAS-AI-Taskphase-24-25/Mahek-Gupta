@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target a_star_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:132:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat Astarplanner::heuristic(int, int, int, int)[m[K’ cannot be overloaded with ‘[01m[Kfloat Astarplanner::heuristic(int, int, int, int)[m[K’
+  132 |  float [01;31m[Kheuristic[m[K(int x1, int y1, int x2, int y2) {
+      |        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:101:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kfloat Astarplanner::heuristic(int, int, int, int)[m[K’
+  101 | float [01;36m[Kheuristic[m[K(int x1, int y1, int x2,int y2){
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:[m[K In member function ‘[01m[Kvoid Astarplanner::startcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:83:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   83 |     if (start_x_ < 0 || [01;35m[Kstart_x_ >= map_->info.width[m[K ||
+      |                         [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:84:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   84 |         start_y_ < 0 || [01;35m[Kstart_y_ >= map_->info.height[m[K) {
+      |                         [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:[m[K In member function ‘[01m[Kvoid Astarplanner::goalcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:116:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  116 |     if (goal_x_ < 0 || [01;35m[Kgoal_x_ >= map_->info.width[m[K ||
+      |                        [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:117:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  117 |         goal_y_ < 0 || [01;35m[Kgoal_y_ >= map_->info.height[m[K) {
+      |                        [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/a_star_planner.dir/build.make:76: CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/a_star_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,48 @@
+[0.012s] Invoking command in '/home/mahek/path/build/path': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/path/build/path -- -j12 -l12
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[1.615s] [01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:[m[K In member function ‘[01m[Kvoid Astarplanner::startcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.615s] [01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:90:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.615s]    90 |         if (start_x_ < 0 || [01;35m[Kstart_x_ >= map_->info.width[m[K ||
+[1.615s]       |                             [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.615s] [01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:91:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.615s]    91 |             start_y_ < 0 || [01;35m[Kstart_y_ >= map_->info.height[m[K) {
+[1.615s]       |                             [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.616s] [01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:[m[K In member function ‘[01m[Kvoid Astarplanner::goalcallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.616s] [01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:125:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.616s]   125 |         if (goal_x_ < 0 || [01;35m[Kgoal_x_ >= map_->info.width[m[K ||
+[1.616s]       |                            [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.616s] [01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:126:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.616s]   126 |             goal_y_ < 0 || [01;35m[Kgoal_y_ >= map_->info.height[m[K) {
+[1.616s]       |                            [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[7.710s] [100%] [32m[1mLinking CXX executable a_star_planner[0m
+[8.168s] [100%] Built target a_star_planner
+[8.180s] Invoked command in '/home/mahek/path/build/path' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mahek/path/build/path -- -j12 -l12
+[8.191s] Invoking command in '/home/mahek/path/build/path': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/path/build/path
+[8.200s] -- Install configuration: ""
+[8.201s] -- Installing: /home/mahek/path/install/path/lib/path/a_star_planner
+[8.206s] -- Set runtime path of "/home/mahek/path/install/path/lib/path/a_star_planner" to ""
+[8.206s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps
+[8.206s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.pgm
+[8.206s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_basic.png
+[8.206s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_param.yaml
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.png
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map.yaml
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_maze.png
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/launch
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/launch/map_launch.py
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/package_run_dependencies/path
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/parent_prefix_path/path
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.sh
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.dsv
+[8.207s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/path.sh
+[8.208s] -- Up-to-date: /home/mahek/path/install/path/share/path/environment/path.dsv
+[8.208s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.bash
+[8.208s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.sh
+[8.208s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.zsh
+[8.208s] -- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.dsv
+[8.209s] -- Installing: /home/mahek/path/install/path/share/path/package.dsv
+[8.209s] -- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/packages/path
+[8.209s] -- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig.cmake
+[8.209s] -- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig-version.cmake
+[8.209s] -- Up-to-date: /home/mahek/path/install/path/share/path/package.xml
+[8.210s] Invoked command in '/home/mahek/path/build/path' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahek/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mahek/path/build/path

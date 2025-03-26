@@ -1,0 +1,64 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mahek/path/build/path
+[35m[1mConsolidate compiler generated dependencies of target a_star_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:[m[K In member function ‘[01m[Kvoid Astarplanner::processPoint(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr, bool)[m[K’:
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:119:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  119 |         if (grid_x < 0 || [01;35m[Kgrid_x >= map_->info.width[m[K || grid_y < 0 || grid_y >= map_->info.height) {
+      |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahek/path/src/path/src/a_star_planner.cpp:119:78:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  119 | x < 0 || grid_x >= map_->info.width || grid_y < 0 || [01;35m[Kgrid_y >= map_->info.height[m[K) {
+      |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable a_star_planner[0m
+[100%] Built target a_star_planner
+-- Install configuration: ""
+-- Installing: /home/mahek/path/install/path/lib/path/a_star_planner
+-- Set runtime path of "/home/mahek/path/install/path/lib/path/a_star_planner" to ""
+-- Up-to-date: /home/mahek/path/install/path/share/path/maps
+-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.pgm
+-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_basic.png
+-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_param.yaml
+-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_test.png
+-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map.yaml
+-- Up-to-date: /home/mahek/path/install/path/share/path/maps/map_maze.png
+-- Up-to-date: /home/mahek/path/install/path/share/path/launch
+-- Up-to-date: /home/mahek/path/install/path/share/path/launch/map_launch.py
+-- Installing: /home/mahek/path/install/path/share/ament_index/resource_index/package_run_dependencies/path
+-- Installing: /home/mahek/path/install/path/share/ament_index/resource_index/parent_prefix_path/path
+-- Up-to-date: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.sh
+-- Installing: /home/mahek/path/install/path/share/path/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mahek/path/install/path/share/path/environment/path.sh
+-- Installing: /home/mahek/path/install/path/share/path/environment/path.dsv
+-- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.bash
+-- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.sh
+-- Up-to-date: /home/mahek/path/install/path/share/path/local_setup.zsh
+-- Installing: /home/mahek/path/install/path/share/path/local_setup.dsv
+-- Installing: /home/mahek/path/install/path/share/path/package.dsv
+-- Up-to-date: /home/mahek/path/install/path/share/ament_index/resource_index/packages/path
+-- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig.cmake
+-- Up-to-date: /home/mahek/path/install/path/share/path/cmake/pathConfig-version.cmake
+-- Installing: /home/mahek/path/install/path/share/path/package.xml
